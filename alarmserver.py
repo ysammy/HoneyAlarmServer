@@ -92,7 +92,7 @@ class AlarmServerConfig(BaseConfig):
                                                          45, 'int')
         self.ALARMCODE = self.read_config_var('envisalink',
                                               'alarmcode',
-                                              1111, 'int')
+                                              1111, 'str')
         self.LOGFILE = self.read_config_var('alarmserver',
                                             'logfile',
                                             '', 'str')
